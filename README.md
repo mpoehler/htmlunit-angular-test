@@ -3,7 +3,7 @@ htmlunit-angular-test
 
 simple maven driven project to test angular apps with HtmlUnit
 
-Currently there are just two testcases that demonstrate that angular 1.2.20 is working with HtmlUnit and 1.2.21 is not.
+Currently there are just two testcases that demonstrate that angular 1.2.26 is working with HtmlUnit 2.16-SNAPSHOT and jQuery 1.2.16.
 
 mvn verify
 ----------
