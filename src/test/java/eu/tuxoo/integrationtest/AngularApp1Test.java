@@ -23,7 +23,7 @@ public class AngularApp1Test {
     public void testDynContent() {
 
         // init webclient
-        WebClient webClient = new WebClient(BrowserVersion.CHROME);
+        WebClient webClient = new WebClient(BrowserVersion.FIREFOX_31);
         List<String> collectedAlerts = new ArrayList<String>();
         webClient.setAlertHandler(new CollectingAlertHandler(collectedAlerts));
         webClient.setAjaxController(new NicelyResynchronizingAjaxController());
